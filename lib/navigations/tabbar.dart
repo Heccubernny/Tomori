@@ -45,10 +45,22 @@ class _TabbarState extends State<Tabbar> {
       ),
       body: Stack(
         children: [
-          renderView(0, const HomeScreen()),
-          renderView(1, const SearchScreen()),
-          renderView(2, const LibraryScreen()),
-          renderView(3, const ProfileScreen()),
+          renderView(
+            0,
+            const HomeScreen(),
+          ),
+          renderView(
+            1,
+            const SearchScreen(),
+          ),
+          renderView(
+            2,
+            const LibraryScreen(),
+          ),
+          renderView(
+            3,
+            const ProfileScreen(),
+          ),
         ],
       ),
     );
